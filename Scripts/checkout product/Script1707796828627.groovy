@@ -20,13 +20,35 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startApplication('C:\\Users\\ASUS\\Downloads\\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\\Solodroid_E-CommerceApp Demo_3.2.0.apk', 
     true)
 
-Mobile.tap(findTestObject('Object Repository/add to cart/android.widget.ImageView'), 0)
+Mobile.tap(findTestObject('Object Repository/checkout/android.widget.ImageView'), 0)
+
+Mobile.tap(findTestObject('Object Repository/checkout/android.widget.Button - ADD TO CART'), 0)
+
+Mobile.setText(findTestObject('Object Repository/checkout/android.widget.EditText'), '1', 0)
+
+Mobile.tap(findTestObject('Object Repository/checkout/android.widget.Button - ADD'), 0)
+
+Mobile.tap(findTestObject('Object Repository/checkout/android.widget.TextView'), 0)
+
+Mobile.tap(findTestObject('Object Repository/checkout/android.widget.Button - CHECKOUT'), 0)
+
+Mobile.setText(findTestObject('Object Repository/checkout/android.widget.EditText - Your Name'), 'clae', 0)
+
+Mobile.setText(findTestObject('Object Repository/checkout/android.widget.EditText - your.emailgmail.com'), 'clae@gmail.com', 
+    0)
+
+Mobile.setText(findTestObject('Object Repository/checkout/android.widget.EditText - 628123456789'), '081291201021', 0)
+
+Mobile.setText(findTestObject('Object Repository/checkout/android.widget.EditText - Your Address'), 'indonesia', 0)
+
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Object Repository/checkout/android.widget.Spinner'), 0)
+
+Mobile.tap(findTestObject('Object Repository/checkout/android.widget.CheckedTextView - DHL Express'), 0)
 
 Mobile.tap(findTestObject('Object Repository/checkout/checkout button'), 0)
 
-Mobile.setText(findTestObject('Object Repository/add to cart/android.widget.EditText'), '1', 0)
-
-Mobile.tap(findTestObject('Object Repository/add to cart/android.widget.Button - ADD'), 0)
 
 Mobile.closeApplication()
 
