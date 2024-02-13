@@ -101,3 +101,10 @@
 [38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Your Address' or . = 'Your Address') and @resource-id = 'com.solodroid.solomerce:id/edt_address']"}[39m
 [38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/53c40aca-6128-4a83-9315-8851442268ca/elements [39m[32m200[39m [90m1380 ms - 139[39m
 [38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/53c40aca-6128-4a83-9315-8851442268ca[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;16m[AppiumDriver@ea3a][0m Removing session 53c40aca-6128-4a83-9315-8851442268ca from our master session list
+[38;5;48m[AndroidUiautomator2Driver@5022 (53c40aca)][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[38;5;48m[AndroidUiautomator2Driver@5022 (53c40aca)][0m Restoring hidden api policy to the device default configuration
+[38;5;0m[HTTP][0m [37m<-- DELETE /wd/hub/session/53c40aca-6128-4a83-9315-8851442268ca [39m[32m200[39m [90m213 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
