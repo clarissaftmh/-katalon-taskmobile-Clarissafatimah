@@ -1,0 +1,24 @@
+1
+00:00:00,394 --> 00:00:30,916
+1. startApplication("C:\Users\ASUS\Downloads\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk", true)
+
+2
+00:00:30,933 --> 00:00:36,433
+5. tap(findTestObject("Object Repository/profile/klik profile"), 0)
+
+3
+00:00:36,433 --> 00:00:36,946
+9. tap(findTestObject("Object Repository/profile/klik edit"), 0)
+
+4
+00:00:36,947 --> 00:00:40,940
+13. tap(findTestObject("Object Repository/profile/klik your name"), 0)
+
+5
+00:00:40,941 --> 00:00:42,752
+17. setText(findTestObject("Object Repository/profile/change name"), "clae", 0)
+
+6
+00:00:42,753 --> 00:00:43,705
+21. tap(findTestObject("Object Repository/profile/klik ok"), 0)
+

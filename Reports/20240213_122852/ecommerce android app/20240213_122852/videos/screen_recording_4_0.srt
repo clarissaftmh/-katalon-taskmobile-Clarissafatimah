@@ -1,0 +1,64 @@
+1
+00:00:00,184 --> 00:00:25,522
+1. startApplication("C:\Users\ASUS\Downloads\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk", true)
+
+2
+00:00:25,525 --> 00:00:31,992
+5. tap(findTestObject("Object Repository/checkout/android.widget.ImageView"), 0)
+
+3
+00:00:31,993 --> 00:00:34,875
+9. tap(findTestObject("Object Repository/add to cart/add to cart"), 0)
+
+4
+00:00:34,875 --> 00:00:38,644
+13. setText(findTestObject("Object Repository/checkout/android.widget.EditText"), "1", 0)
+
+5
+00:00:38,646 --> 00:00:39,686
+17. tap(findTestObject("Object Repository/checkout/android.widget.Button - ADD"), 0)
+
+6
+00:00:39,696 --> 00:00:40,780
+21. tap(findTestObject("Object Repository/checkout/android.widget.TextView"), 0)
+
+7
+00:00:40,782 --> 00:00:43,146
+25. tap(findTestObject("Object Repository/checkout/android.widget.Button - CHECKOUT"), 0)
+
+8
+00:00:43,148 --> 00:00:48,781
+29. setText(findTestObject("Object Repository/checkout/android.widget.EditText - Your Name"), "clae", 0)
+
+9
+00:00:48,783 --> 00:00:51,780
+33. setText(findTestObject("Object Repository/checkout/android.widget.EditText - your.emailgmail.com"), "clae@gmail.com", 0)
+
+10
+00:00:51,781 --> 00:00:54,845
+37. setText(findTestObject("Object Repository/checkout/android.widget.EditText - 628123456789"), "081291201021", 0)
+
+11
+00:00:54,846 --> 00:00:58,028
+41. setText(findTestObject("Object Repository/checkout/address"), "indonesia", 0)
+
+12
+00:00:58,029 --> 00:01:00,252
+45. hideKeyboard()
+
+13
+00:01:00,253 --> 00:01:00,904
+49. tap(findTestObject("Object Repository/checkout/android.widget.Spinner"), 0)
+
+14
+00:01:00,905 --> 00:01:02,954
+53. tap(findTestObject("Object Repository/checkout/android.widget.CheckedTextView - DHL Express"), 0)
+
+15
+00:01:02,955 --> 00:01:03,620
+57. tap(findTestObject("Object Repository/checkout/checkout button"), 0)
+
+16
+00:01:03,621 --> 00:01:08,687
+61. closeApplication()
+

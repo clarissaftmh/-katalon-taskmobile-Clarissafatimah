@@ -22,7 +22,7 @@ Mobile.startApplication('C:\\Users\\ASUS\\Downloads\\Android-Solodroid_E-Commerc
 
 Mobile.tap(findTestObject('Object Repository/checkout/android.widget.ImageView'), 0)
 
-Mobile.tap(findTestObject('Object Repository/checkout/android.widget.Button - ADD TO CART'), 0)
+Mobile.tap(findTestObject('Object Repository/add to cart/add to cart'), 0)
 
 Mobile.setText(findTestObject('Object Repository/checkout/android.widget.EditText'), '1', 0)
 
@@ -39,7 +39,7 @@ Mobile.setText(findTestObject('Object Repository/checkout/android.widget.EditTex
 
 Mobile.setText(findTestObject('Object Repository/checkout/android.widget.EditText - 628123456789'), '081291201021', 0)
 
-Mobile.setText(findTestObject('Object Repository/checkout/android.widget.EditText - Your Address'), 'indonesia', 0)
+Mobile.setText(findTestObject('Object Repository/checkout/address'), 'indonesia', 0)
 
 Mobile.hideKeyboard()
 

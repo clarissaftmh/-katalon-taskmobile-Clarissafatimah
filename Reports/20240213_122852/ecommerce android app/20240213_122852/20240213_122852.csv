@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ecommerce android app,,,,13-02-2024 12:28:59,13-02-2024 12:32:24,3m - 24.219s,PASSED
+,,,,,,,
+Test Cases/edit profile,,,,13-02-2024 12:29:00,13-02-2024 12:29:46,46.164s,PASSED
+"startApplication(""C:\Users\ASUS\Downloads\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk"", true)",,,,13-02-2024 12:29:00,13-02-2024 12:29:31,30.515s,PASSED
+"tap(findTestObject(""Object Repository/profile/klik profile""), 0)",,,,13-02-2024 12:29:31,13-02-2024 12:29:36,5.500s,PASSED
+"tap(findTestObject(""Object Repository/profile/klik edit""), 0)",,,,13-02-2024 12:29:36,13-02-2024 12:29:37,0.513s,PASSED
+"tap(findTestObject(""Object Repository/profile/klik your name""), 0)",,,,13-02-2024 12:29:37,13-02-2024 12:29:41,3.995s,PASSED
+"setText(findTestObject(""Object Repository/profile/change name""), ""clae"", 0)",,,,13-02-2024 12:29:41,13-02-2024 12:29:43,1.810s,PASSED
+"tap(findTestObject(""Object Repository/profile/klik ok""), 0)",,,,13-02-2024 12:29:43,13-02-2024 12:29:44,0.948s,PASSED
+Video,,,,13-02-2024 12:29:46,13-02-2024 12:29:46,0.001s,PASSED
+,,,,,,,
+Test Cases/search,,,,13-02-2024 12:29:46,13-02-2024 12:30:25,39.311s,PASSED
+"startApplication(""C:\Users\ASUS\Downloads\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk"", true)",,,,13-02-2024 12:29:46,13-02-2024 12:30:06,20.117s,PASSED
+"tap(findTestObject(""Object Repository/search/android.widget.TextView""), 0)",,,,13-02-2024 12:30:06,13-02-2024 12:30:12,6.273s,PASSED
+"setText(findTestObject(""Object Repository/search/android.widget.AutoCompleteTextView - Search""), ""apple watch"", 0)",,,,13-02-2024 12:30:12,13-02-2024 12:30:15,2.666s,PASSED
+"tap(findTestObject(""Object Repository/search/android.widget.ImageView""), 0)",,,,13-02-2024 12:30:15,13-02-2024 12:30:17,2.253s,PASSED
+closeApplication(),,,,13-02-2024 12:30:17,13-02-2024 12:30:23,5.697s,PASSED
+Video,,,,13-02-2024 12:30:25,13-02-2024 12:30:25,0.002s,PASSED
+,,,,,,,
+Test Cases/add to cart,,,,13-02-2024 12:30:25,13-02-2024 12:31:13,47.458s,PASSED
+"startApplication(""C:\Users\ASUS\Downloads\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk"", true)",,,,13-02-2024 12:30:25,13-02-2024 12:30:54,28.197s,PASSED
+"tap(findTestObject(""Object Repository/add to cart/android.widget.ImageView""), 0)",,,,13-02-2024 12:30:54,13-02-2024 12:30:59,5.061s,PASSED
+"tap(findTestObject(""Object Repository/add to cart/add to cart""), 0)",,,,13-02-2024 12:30:59,13-02-2024 12:31:02,2.866s,PASSED
+"setText(findTestObject(""Object Repository/add to cart/android.widget.EditText""), ""1"", 0)",,,,13-02-2024 12:31:02,13-02-2024 12:31:05,3.655s,PASSED
+"tap(findTestObject(""Object Repository/add to cart/android.widget.Button - ADD""), 0)",,,,13-02-2024 12:31:05,13-02-2024 12:31:06,1.074s,PASSED
+closeApplication(),,,,13-02-2024 12:31:06,13-02-2024 12:31:11,4.265s,PASSED
+Video,,,,13-02-2024 12:31:13,13-02-2024 12:31:13,0.002s,PASSED
+,,,,,,,
+Test Cases/checkout product,,,,13-02-2024 12:31:13,13-02-2024 12:32:24,1m - 10.882s,PASSED
+"startApplication(""C:\Users\ASUS\Downloads\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk"", true)",,,,13-02-2024 12:31:13,13-02-2024 12:31:38,25.339s,PASSED
+"tap(findTestObject(""Object Repository/checkout/android.widget.ImageView""), 0)",,,,13-02-2024 12:31:38,13-02-2024 12:31:45,6.467s,PASSED
+"tap(findTestObject(""Object Repository/add to cart/add to cart""), 0)",,,,13-02-2024 12:31:45,13-02-2024 12:31:48,2.880s,PASSED
+"setText(findTestObject(""Object Repository/checkout/android.widget.EditText""), ""1"", 0)",,,,13-02-2024 12:31:48,13-02-2024 12:31:51,3.770s,PASSED
+"tap(findTestObject(""Object Repository/checkout/android.widget.Button - ADD""), 0)",,,,13-02-2024 12:31:51,13-02-2024 12:31:52,1.049s,PASSED
+"tap(findTestObject(""Object Repository/checkout/android.widget.TextView""), 0)",,,,13-02-2024 12:31:52,13-02-2024 12:31:53,1.084s,PASSED
+"tap(findTestObject(""Object Repository/checkout/android.widget.Button - CHECKOUT""), 0)",,,,13-02-2024 12:31:53,13-02-2024 12:31:56,2.365s,PASSED
+"setText(findTestObject(""Object Repository/checkout/android.widget.EditText - Your Name""), ""clae"", 0)",,,,13-02-2024 12:31:56,13-02-2024 12:32:01,5.634s,PASSED
+"setText(findTestObject(""Object Repository/checkout/android.widget.EditText - your.emailgmail.com""), ""clae@gmail.com"", 0)",,,,13-02-2024 12:32:02,13-02-2024 12:32:04,2.998s,PASSED
+"setText(findTestObject(""Object Repository/checkout/android.widget.EditText - 628123456789""), ""081291201021"", 0)",,,,13-02-2024 12:32:04,13-02-2024 12:32:08,3.063s,PASSED
+"setText(findTestObject(""Object Repository/checkout/address""), ""indonesia"", 0)",,,,13-02-2024 12:32:08,13-02-2024 12:32:11,3.182s,PASSED
+hideKeyboard(),,,,13-02-2024 12:32:11,13-02-2024 12:32:13,2.224s,PASSED
+"tap(findTestObject(""Object Repository/checkout/android.widget.Spinner""), 0)",,,,13-02-2024 12:32:13,13-02-2024 12:32:14,0.652s,PASSED
+"tap(findTestObject(""Object Repository/checkout/android.widget.CheckedTextView - DHL Express""), 0)",,,,13-02-2024 12:32:14,13-02-2024 12:32:16,2.049s,PASSED
+"tap(findTestObject(""Object Repository/checkout/checkout button""), 0)",,,,13-02-2024 12:32:16,13-02-2024 12:32:16,0.668s,PASSED
+closeApplication(),,,,13-02-2024 12:32:16,13-02-2024 12:32:21,5.061s,PASSED
+Video,,,,13-02-2024 12:32:24,13-02-2024 12:32:24,0.002s,PASSED

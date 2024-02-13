@@ -2770,3 +2770,27 @@
 [38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session [39m[32m-[39m [90m- ms - -[39m
 [38;5;0m[HTTP][0m [90m[39m
 [38;5;16m[AppiumDriver@8dc4][0m New AndroidUiautomator2Driver session created successfully, session 19a521fe-df23-4e2c-8576-548eaed92efd added to master session list
+[38;5;48m[AndroidUiautomator2Driver@250f (ae6fdde8)][0m Shutting down because we waited 1800 seconds for a command
+[38;5;16m[AppiumDriver@8dc4][0m Ending session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[38;5;16m[AppiumDriver@8dc4][0m Removing session 'ae6fdde8-84ce-4c13-9416-53aca87e5505' from our master session list
+[38;5;48m[AndroidUiautomator2Driver@250f (ae6fdde8)][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[38;5;64m[ADB][0m com.solodroid.solomerce was successfully uninstalled
+[38;5;48m[AndroidUiautomator2Driver@250f (ae6fdde8)][0m Restoring hidden api policy to the device default configuration
+[38;5;48m[AndroidUiautomator2Driver@f2eb (e0fc8cea)][0m Shutting down because we waited 1800 seconds for a command
+[38;5;16m[AppiumDriver@8dc4][0m Ending session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[38;5;16m[AppiumDriver@8dc4][0m Removing session 'e0fc8cea-9d72-48a2-98d5-1bf15bc78d66' from our master session list
+[38;5;48m[AndroidUiautomator2Driver@f2eb (e0fc8cea)][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[38;5;64m[ADB][0m com.solodroid.solomerce was not uninstalled, because it was not present on the device
+[38;5;48m[AndroidUiautomator2Driver@f2eb (e0fc8cea)][0m Restoring hidden api policy to the device default configuration
+[38;5;48m[AndroidUiautomator2Driver@4716 (854320c6)][0m Shutting down because we waited 1800 seconds for a command
+[38;5;16m[AppiumDriver@8dc4][0m Ending session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[38;5;16m[AppiumDriver@8dc4][0m Removing session '854320c6-0205-43ca-962b-5b870549004f' from our master session list
+[38;5;48m[AndroidUiautomator2Driver@4716 (854320c6)][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[38;5;64m[ADB][0m com.solodroid.solomerce was successfully uninstalled
+[38;5;48m[AndroidUiautomator2Driver@4716 (854320c6)][0m Restoring hidden api policy to the device default configuration
+[38;5;48m[AndroidUiautomator2Driver@55c1 (19a521fe)][0m Shutting down because we waited 1800 seconds for a command
+[38;5;16m[AppiumDriver@8dc4][0m Ending session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[38;5;16m[AppiumDriver@8dc4][0m Removing session '19a521fe-df23-4e2c-8576-548eaed92efd' from our master session list
+[38;5;48m[AndroidUiautomator2Driver@55c1 (19a521fe)][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[38;5;64m[ADB][0m com.solodroid.solomerce was not uninstalled, because it was not present on the device
+[38;5;48m[AndroidUiautomator2Driver@55c1 (19a521fe)][0m Restoring hidden api policy to the device default configuration

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ecommerce android app" time="204.219" tests="4" failures="0" errors="0">
+   <testsuite name="ecommerce android app" tests="4" failures="0" errors="0" time="204.219" skipped="0" timestamp="13-02-2024T12:28:59" hostname="ASUS - LAPTOP-86QR281O" id="Test Suites/ecommerce android app">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 14)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ASUS\\Documents\\Bismillah BFLP IT\\BOOTCAMP IT\\Katalon\\-katalon-taskmobile-Clarissafatimah\\Reports\\20240213_122852\\ecommerce android app\\20240213_122852"/>
+         <property name="logFiles" value="C:\\Users\\ASUS\\Documents\\Bismillah BFLP IT\\BOOTCAMP IT\\Katalon\\-katalon-taskmobile-Clarissafatimah\\Reports\\20240213_122852\\ecommerce android app\\20240213_122852\\appium.log, C:\\Users\\ASUS\\Documents\\Bismillah BFLP IT\\BOOTCAMP IT\\Katalon\\-katalon-taskmobile-Clarissafatimah\\Reports\\20240213_122852\\ecommerce android app\\20240213_122852\\appium_error.log, C:\\Users\\ASUS\\Documents\\Bismillah BFLP IT\\BOOTCAMP IT\\Katalon\\-katalon-taskmobile-Clarissafatimah\\Reports\\20240213_122852\\ecommerce android app\\20240213_122852\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - LAPTOP-86QR281O"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.5.0&quot;}}}"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.5.0"/>
+         <property name="deviceModel" value="sdk_gphone64_x86_64"/>
+         <property name="hostAddress" value="172.16.213.211"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 14)"/>
+         <property name="deviceOSVersion" value="14"/>
+      </properties>
+      <testcase name="Test Cases/edit profile" time="46.164" classname="Test Cases/edit profile" status="PASSED">
+         <system-out><![CDATA[13-02-2024T12:29:00 - [TEST_CASE][PASSED] - Test Cases/edit profile: Test Cases/edit profile
+
+13-02-2024T12:29:00 - [TEST_STEP][PASSED] - startApplication("C:\Users\ASUS\Downloads\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk", true): Started app at: 'C:\Users\ASUS\Downloads\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T12:29:01 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+13-02-2024T12:29:12 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+13-02-2024T12:29:12 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\ASUS\.appium
+
+13-02-2024T12:29:12 - [MESSAGE][INFO] - appium outlog: C:\Users\ASUS\Documents\Bismillah BFLP IT\BOOTCAMP IT\Katalon\-katalon-taskmobile-Clarissafatimah\Reports\20240213_122852\ecommerce android app\20240213_122852\appium.log
+
+13-02-2024T12:29:12 - [MESSAGE][INFO] - appium errlog: C:\Users\ASUS\Documents\Bismillah BFLP IT\BOOTCAMP IT\Katalon\-katalon-taskmobile-Clarissafatimah\Reports\20240213_122852\ecommerce android app\20240213_122852\appium_error.log
+
+13-02-2024T12:29:16 - [MESSAGE][INFO] - Appium server started on port 60,435
+
+13-02-2024T12:29:31 - [MESSAGE][PASSED] - Started app at: 'C:\Users\ASUS\Downloads\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T12:29:31 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/profile/klik profile"), 0): Tapped on element 'Object Repository/profile/klik profile'
+
+13-02-2024T12:29:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:29:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/profile/klik profile'
+
+13-02-2024T12:29:36 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/profile/klik edit"), 0): Tapped on element 'Object Repository/profile/klik edit'
+
+13-02-2024T12:29:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:29:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/profile/klik edit'
+
+13-02-2024T12:29:37 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/profile/klik your name"), 0): Tapped on element 'Object Repository/profile/klik your name'
+
+13-02-2024T12:29:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:29:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/profile/klik your name'
+
+13-02-2024T12:29:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/profile/change name"), "clae", 0): Text 'clae' has been set to element 'Object Repository/profile/change name'
+
+13-02-2024T12:29:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:29:43 - [MESSAGE][PASSED] - Text 'clae' has been set to element 'Object Repository/profile/change name'
+
+13-02-2024T12:29:43 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/profile/klik ok"), 0): Tapped on element 'Object Repository/profile/klik ok'
+
+13-02-2024T12:29:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:29:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/profile/klik ok'
+
+13-02-2024T12:29:46 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/edit profile' .
+
+13-02-2024T12:29:46 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/edit profile' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/search" time="39.311" classname="Test Cases/search" status="PASSED">
+         <system-out><![CDATA[13-02-2024T12:29:46 - [TEST_CASE][PASSED] - Test Cases/search: Test Cases/search
+
+13-02-2024T12:29:46 - [TEST_STEP][PASSED] - startApplication("C:\Users\ASUS\Downloads\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk", true): Started app at: 'C:\Users\ASUS\Downloads\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T12:30:06 - [MESSAGE][PASSED] - Started app at: 'C:\Users\ASUS\Downloads\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T12:30:06 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/search/android.widget.TextView"), 0): Tapped on element 'Object Repository/search/android.widget.TextView'
+
+13-02-2024T12:30:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:30:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/search/android.widget.TextView'
+
+13-02-2024T12:30:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/search/android.widget.AutoCompleteTextView - Search"), "apple watch", 0): Text 'apple watch' has been set to element 'Object Repository/search/android.widget.AutoCompleteTextView - Search'
+
+13-02-2024T12:30:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:30:15 - [MESSAGE][PASSED] - Text 'apple watch' has been set to element 'Object Repository/search/android.widget.AutoCompleteTextView - Search'
+
+13-02-2024T12:30:15 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/search/android.widget.ImageView"), 0): Tapped on element 'Object Repository/search/android.widget.ImageView'
+
+13-02-2024T12:30:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:30:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/search/android.widget.ImageView'
+
+13-02-2024T12:30:17 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+13-02-2024T12:30:23 - [MESSAGE][PASSED] - Close app successfully
+
+13-02-2024T12:30:25 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/search' .
+
+13-02-2024T12:30:25 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/search' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/add to cart" time="47.458" classname="Test Cases/add to cart" status="PASSED">
+         <system-out><![CDATA[13-02-2024T12:30:25 - [TEST_CASE][PASSED] - Test Cases/add to cart: Test Cases/add to cart
+
+13-02-2024T12:30:25 - [TEST_STEP][PASSED] - startApplication("C:\Users\ASUS\Downloads\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk", true): Started app at: 'C:\Users\ASUS\Downloads\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T12:30:26 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+13-02-2024T12:30:37 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+13-02-2024T12:30:37 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\ASUS\.appium
+
+13-02-2024T12:30:37 - [MESSAGE][INFO] - appium outlog: C:\Users\ASUS\Documents\Bismillah BFLP IT\BOOTCAMP IT\Katalon\-katalon-taskmobile-Clarissafatimah\Reports\20240213_122852\ecommerce android app\20240213_122852\appium.log
+
+13-02-2024T12:30:37 - [MESSAGE][INFO] - appium errlog: C:\Users\ASUS\Documents\Bismillah BFLP IT\BOOTCAMP IT\Katalon\-katalon-taskmobile-Clarissafatimah\Reports\20240213_122852\ecommerce android app\20240213_122852\appium_error.log
+
+13-02-2024T12:30:40 - [MESSAGE][INFO] - Appium server started on port 60,869
+
+13-02-2024T12:30:54 - [MESSAGE][PASSED] - Started app at: 'C:\Users\ASUS\Downloads\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T12:30:54 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/add to cart/android.widget.ImageView"), 0): Tapped on element 'Object Repository/add to cart/android.widget.ImageView'
+
+13-02-2024T12:30:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:30:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/add to cart/android.widget.ImageView'
+
+13-02-2024T12:30:59 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/add to cart/add to cart"), 0): Tapped on element 'Object Repository/add to cart/add to cart'
+
+13-02-2024T12:30:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:31:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/add to cart/add to cart'
+
+13-02-2024T12:31:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/add to cart/android.widget.EditText"), "1", 0): Text '1' has been set to element 'Object Repository/add to cart/android.widget.EditText'
+
+13-02-2024T12:31:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:31:05 - [MESSAGE][PASSED] - Text '1' has been set to element 'Object Repository/add to cart/android.widget.EditText'
+
+13-02-2024T12:31:05 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/add to cart/android.widget.Button - ADD"), 0): Tapped on element 'Object Repository/add to cart/android.widget.Button - ADD'
+
+13-02-2024T12:31:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:31:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/add to cart/android.widget.Button - ADD'
+
+13-02-2024T12:31:06 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+13-02-2024T12:31:11 - [MESSAGE][PASSED] - Close app successfully
+
+13-02-2024T12:31:13 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/add to cart' .
+
+13-02-2024T12:31:13 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/add to cart' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/checkout product" time="70.882" classname="Test Cases/checkout product" status="PASSED">
+         <system-out><![CDATA[13-02-2024T12:31:13 - [TEST_CASE][PASSED] - Test Cases/checkout product: Test Cases/checkout product
+
+13-02-2024T12:31:13 - [TEST_STEP][PASSED] - startApplication("C:\Users\ASUS\Downloads\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk", true): Started app at: 'C:\Users\ASUS\Downloads\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T12:31:13 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+13-02-2024T12:31:19 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+13-02-2024T12:31:19 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\ASUS\.appium
+
+13-02-2024T12:31:19 - [MESSAGE][INFO] - appium outlog: C:\Users\ASUS\Documents\Bismillah BFLP IT\BOOTCAMP IT\Katalon\-katalon-taskmobile-Clarissafatimah\Reports\20240213_122852\ecommerce android app\20240213_122852\appium.log
+
+13-02-2024T12:31:19 - [MESSAGE][INFO] - appium errlog: C:\Users\ASUS\Documents\Bismillah BFLP IT\BOOTCAMP IT\Katalon\-katalon-taskmobile-Clarissafatimah\Reports\20240213_122852\ecommerce android app\20240213_122852\appium_error.log
+
+13-02-2024T12:31:22 - [MESSAGE][INFO] - Appium server started on port 61,139
+
+13-02-2024T12:31:38 - [MESSAGE][PASSED] - Started app at: 'C:\Users\ASUS\Downloads\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T12:31:38 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/checkout/android.widget.ImageView"), 0): Tapped on element 'Object Repository/checkout/android.widget.ImageView'
+
+13-02-2024T12:31:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:31:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/checkout/android.widget.ImageView'
+
+13-02-2024T12:31:45 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/add to cart/add to cart"), 0): Tapped on element 'Object Repository/add to cart/add to cart'
+
+13-02-2024T12:31:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:31:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/add to cart/add to cart'
+
+13-02-2024T12:31:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/checkout/android.widget.EditText"), "1", 0): Text '1' has been set to element 'Object Repository/checkout/android.widget.EditText'
+
+13-02-2024T12:31:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:31:51 - [MESSAGE][PASSED] - Text '1' has been set to element 'Object Repository/checkout/android.widget.EditText'
+
+13-02-2024T12:31:51 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/checkout/android.widget.Button - ADD"), 0): Tapped on element 'Object Repository/checkout/android.widget.Button - ADD'
+
+13-02-2024T12:31:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:31:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/checkout/android.widget.Button - ADD'
+
+13-02-2024T12:31:52 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/checkout/android.widget.TextView"), 0): Tapped on element 'Object Repository/checkout/android.widget.TextView'
+
+13-02-2024T12:31:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:31:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/checkout/android.widget.TextView'
+
+13-02-2024T12:31:53 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/checkout/android.widget.Button - CHECKOUT"), 0): Tapped on element 'Object Repository/checkout/android.widget.Button - CHECKOUT'
+
+13-02-2024T12:31:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:31:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/checkout/android.widget.Button - CHECKOUT'
+
+13-02-2024T12:31:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/checkout/android.widget.EditText - Your Name"), "clae", 0): Text 'clae' has been set to element 'Object Repository/checkout/android.widget.EditText - Your Name'
+
+13-02-2024T12:31:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:32:01 - [MESSAGE][PASSED] - Text 'clae' has been set to element 'Object Repository/checkout/android.widget.EditText - Your Name'
+
+13-02-2024T12:32:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/checkout/android.widget.EditText - your.emailgmail.com"), "clae@gmail.com", 0): Text 'clae@gmail.com' has been set to element 'Object Repository/checkout/android.widget.EditText - your.emailgmail.com'
+
+13-02-2024T12:32:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:32:04 - [MESSAGE][PASSED] - Text 'clae@gmail.com' has been set to element 'Object Repository/checkout/android.widget.EditText - your.emailgmail.com'
+
+13-02-2024T12:32:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/checkout/android.widget.EditText - 628123456789"), "081291201021", 0): Text '081291201021' has been set to element 'Object Repository/checkout/android.widget.EditText - 628123456789'
+
+13-02-2024T12:32:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:32:08 - [MESSAGE][PASSED] - Text '081291201021' has been set to element 'Object Repository/checkout/android.widget.EditText - 628123456789'
+
+13-02-2024T12:32:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/checkout/address"), "indonesia", 0): Text 'indonesia' has been set to element 'Object Repository/checkout/address'
+
+13-02-2024T12:32:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:32:11 - [MESSAGE][PASSED] - Text 'indonesia' has been set to element 'Object Repository/checkout/address'
+
+13-02-2024T12:32:11 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+13-02-2024T12:32:13 - [MESSAGE][PASSED] - Keyboard is hidden
+
+13-02-2024T12:32:13 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/checkout/android.widget.Spinner"), 0): Tapped on element 'Object Repository/checkout/android.widget.Spinner'
+
+13-02-2024T12:32:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:32:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/checkout/android.widget.Spinner'
+
+13-02-2024T12:32:14 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/checkout/android.widget.CheckedTextView - DHL Express"), 0): Tapped on element 'Object Repository/checkout/android.widget.CheckedTextView - DHL Express'
+
+13-02-2024T12:32:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:32:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/checkout/android.widget.CheckedTextView - DHL Express'
+
+13-02-2024T12:32:16 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/checkout/checkout button"), 0): Tapped on element 'Object Repository/checkout/checkout button'
+
+13-02-2024T12:32:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:32:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/checkout/checkout button'
+
+13-02-2024T12:32:16 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+13-02-2024T12:32:21 - [MESSAGE][PASSED] - Close app successfully
+
+13-02-2024T12:32:24 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/checkout product' .
+
+13-02-2024T12:32:24 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/checkout product' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-02-2024T12:28:59 - [TEST_SUITE][PASSED] - ecommerce android app: Test Cases/checkout product]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
