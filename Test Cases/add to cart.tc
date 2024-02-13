@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>add to cart hp</name>
+   <name>add to cart</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>429708d9-d197-432b-ac69-cde420361fe5</testCaseGuid>
+   <testCaseGuid>4849d369-f501-4e30-8e6a-3739fcf1197c</testCaseGuid>
 </TestCaseEntity>

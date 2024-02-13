@@ -22,7 +22,7 @@ Mobile.startApplication('C:\\Users\\ASUS\\Downloads\\Android-Solodroid_E-Commerc
 
 Mobile.tap(findTestObject('Object Repository/add to cart/android.widget.ImageView'), 0)
 
-Mobile.tap(findTestObject('Object Repository/checkout/checkout button'), 0)
+Mobile.tap(findTestObject('Object Repository/add to cart/add to cart'), 0)
 
 Mobile.setText(findTestObject('Object Repository/add to cart/android.widget.EditText'), '1', 0)
 
